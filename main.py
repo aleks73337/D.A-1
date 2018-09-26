@@ -68,6 +68,7 @@ mat.xticks(xx)
 mat.yticks(yy)
 mat.show()
 
+#=========================================================================================================
 #print(np.average(corr[:,1]))
 
 average = np.mean(np_matr[:, :np_matr.shape[1]], axis = 1)
